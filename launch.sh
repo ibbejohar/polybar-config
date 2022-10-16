@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-polybar bar &
+pkill polybar
+
+polybar bar1 &
 
